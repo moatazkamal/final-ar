@@ -2950,6 +2950,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e8dd0f85953bd5a4d9c2cc6b4d3d9eb3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2040730438}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e8dd0f85953bd5a4d9c2cc6b4d3d9eb3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2040730439}
   m_SourcePrefab: {fileID: 100100000, guid: e8dd0f85953bd5a4d9c2cc6b4d3d9eb3, type: 3}
 --- !u!4 &2040730432 stripped
 Transform:
@@ -2988,6 +2991,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2040730439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040730433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdbd9febf93b70444a39fba0ed710001, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Rotate
+  rot: {x: 0, y: 25, z: 0}
 --- !u!1 &2083547820
 GameObject:
   m_ObjectHideFlags: 0
@@ -4989,6 +5005,7 @@ GameObject:
   m_Component:
   - component: {fileID: 631404326951634623}
   - component: {fileID: 631404326951634625}
+  - component: {fileID: 631404326951634626}
   m_Layer: 0
   m_Name: Mercedes-Benz_S-Class_W223_Brabus
   m_TagString: Untagged
@@ -7030,6 +7047,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &631404326951634626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254702209003461637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdbd9febf93b70444a39fba0ed710001, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Rotate
+  rot: {x: 0, y: 25, z: 0}
 --- !u!1 &639072511968868397
 GameObject:
   m_ObjectHideFlags: 0
